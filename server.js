@@ -35,6 +35,7 @@ hbs.registerHelper('screamit', (text) => {
   return text.toUpperCase();
 });
 
+
 //set handlebars as our view engine
 app.set('view engine', 'hbs');
 
